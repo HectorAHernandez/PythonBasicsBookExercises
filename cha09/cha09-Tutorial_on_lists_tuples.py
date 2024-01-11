@@ -299,13 +299,13 @@ print(f"x[1][1] --> ['ccc', 'ddd'] = {x[1][1]}")
 print(f"sublist x[3] --> ['hh', 'ii'] = {x[3]}")
 print(f"the second element in x[3] sublist: x[3][1] --> 'ii' = x[3][1]")
 
-# for acessing the elements of another sublist inside of a sublist, we just
+# for accessing the elements of another sublist inside of a sublist, we just
 # need to add another index x[][][].
 
 # There is no limit, only the computer memory, to the depth or complexity with
 # which lists can be nested in this way.
 
-# All the ususal syntax regardding indices and slicing applies to sublists
+# All the usual syntax regarding indices and slicing applies to sublists
 # as well:
 print(
     f"To get the last element in a sublist x[1][1][-1] --> 'ddd' = \
@@ -526,7 +526,7 @@ print(f"x, after x = a.append(123) --> None = {x} and a modified in place: {a}")
 # each element of the iterable object.
 a = ["a", "b"]
 a.append([1, 2, 3])  # appending an iterable list.
-print(f"The whole iterable is appended to a in a.append([1, 2, 3]) --> {a}")
+print(f"\n*** The whole iterable is appended to a in a.append([1, 2, 3]) --> {a}")
 # This is why with .append(), we can append a string as a single entity
 a = ["a", "b"]
 a.append("foobar")

@@ -44,7 +44,7 @@ del capitals["Texas"]
 print(f"dict capital DELETED Texas-Houston: {capitals}")
 
 
-# Cheking the existance of dictionary keys:
+# Checking the existance of dictionary keys:
 """ if we try to access a value in a dictionary using a key that does not
 exist, then Python raises a 'keyError'
 capt_1 = capitals["Arizona"]
@@ -67,8 +67,8 @@ if "Colorado" in capitals:
     # Print only if Arizona key exist. or any other process needed:
     print(f"The capital of 'Colorado' is {capitals['Colorado']}")
 
-# It is very important to remember that 'in' checks for the existance of keys,
-# not the existance of values:
+# It is very important to remember that 'in' checks for the existence of keys,
+# not the existence of values:
 print(f"'Sacramento' is in captials? --> False = {'Sacramento' in capitals} ")
 
 # Even though "Sacramento" is a value for the existing "California" key in

@@ -134,7 +134,7 @@ to false:"""
 for i in range(1, 101):
     the_cats[i] = False
 
-# walk aroung the circle 100 times:
+# walk around the circle 100 times:
 for i in range(1, 101):
     # visit all cats each time we do a lap
     for cat, hat in the_cats.items():
